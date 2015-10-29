@@ -3,7 +3,7 @@ module Actor
     def initialize(message = 'nothing')
       @message = message
     end
-    def show_massage
+    def show_message
       @message
     end
     def show_message_length
